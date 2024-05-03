@@ -49,7 +49,6 @@
     </div>
     <br />
     <div class="container">
-
       <h1 class="">Bloco 1</h1>
 
       <div class="row">
@@ -81,16 +80,90 @@
             </li>
           </ul>
 
-            <div class="col">
-              <div class="card card-panel white">
-                  <div class="card-title">Titulo</div>
-                  <div class="card-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita tenetur similique autem beatae consequatur accusantium, laboriosam quidem modi quos commodi magnam facilis minus? Voluptas, ea deserunt sint </div>
+          <div class="col">
+            <div class="card card-panel white">
+              <div class="card-title">Titulo</div>
+              <div class="card-content">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Expedita tenetur similique autem beatae consequatur accusantium,
+                laboriosam quidem modi quos commodi magnam facilis minus?
+                Voluptas, ea deserunt sint
               </div>
             </div>
+          </div>
         </div>
         <div class="col s12 m6 center">
           <img src="https://placehold.jp/650x400.png" alt="" />
         </div>
+      </div>
+    </div>
+
+    <div class="parallax-container">
+      <div class="parallax">
+        <img src="https://cdn0.tudoreceitas.com/pt/posts/7/2/3/cuscuz_paulista_de_sardinha_8327_orig.jpg" />
+      </div>
+    </div>
+
+    <br>
+    <!--CARDÁPIO-->
+
+    <div class="container">
+      <ul class="tabs tabs-fixed-width tab-demo z-depth-1">
+        <li class="tab"><a class="active" href="#test1">Segunda</a></li>
+        <li class="tab"><a href="#test2">Terça</a></li>
+        <li class="tab"><a href="#test3">Quarta</a></li>
+        <li class="tab"><a href="#test4">Quinta</a></li>
+        <li class="tab"><a href="#test0">Sexta</a></li>
+      </ul>
+      <div id="test1" class="col s12">
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Entrada</h4></li>
+          <li class="collection-item">Cream Cracker e vitamina de abacate</li>
+          <li class="collection-header"><h4>Intervalo</h4></li>
+          <li class="collection-item">Cuzcuz paulista</li>
+          <li class="collection-header"><h4>Saída</h4></li>
+          <li class="collection-item">Fruta (se tiver)</li>
+        </ul>
+      </div>
+      <div id="test2" class="col s12">
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Entrada</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Intervalo</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Saída</h4></li>
+          <li class="collection-item">Alvin</li>
+        </ul>
+      </div>
+      <div id="test3" class="col s12">
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Entrada</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Intervalo</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Saída</h4></li>
+          <li class="collection-item">Alvin</li>
+        </ul>
+      </div>
+      <div id="test4" class="col s12">
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Entrada</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Intervalo</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Saída</h4></li>
+          <li class="collection-item">Alvin</li>
+        </ul>
+      </div>
+      <div id="test0" class="col s12">
+        <ul class="collection with-header">
+          <li class="collection-header"><h4>Entrada</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Intervalo</h4></li>
+          <li class="collection-item">Alvin</li>
+          <li class="collection-header"><h4>Saída</h4></li>
+          <li class="collection-item">Alvin</li>
+        </ul>
       </div>
     </div>
 
@@ -103,6 +176,8 @@
       });
       $(document).ready(function () {
         $(".collapsible").collapsible();
+        $(".parallax").parallax();
+        $(".tabs").tabs();
       });
     </script>
   </body>
